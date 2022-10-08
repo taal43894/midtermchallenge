@@ -32,7 +32,7 @@ https://cli-assets.heroku.com/heroku-x64.exe
 heroku login
 heroku container:login
 
-APP_NAME="food-img-classifier"
+APP_NAME="midtermchallenge"
 heroku create $APP_NAME
 
 heroku container:push web --app ${APP_NAME}
